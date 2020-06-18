@@ -246,16 +246,16 @@ Method	Percent phone
 error rate (PER) (%)
 Randomly Initialized RNN[129]	26.1
 Bayesian Triphone GMM-HMM	25.6
-Hidden Trajectory (Generative) Model	24.8
-Monophone Randomly Initialized DNN	23.4
-Monophone DBN-DNN	22.4
-Triphone GMM-HMM with BMMI Training	21.7
-Monophone DBN-DNN on fbank	20.7
-Convolutional DNN[130]	20.0
-Convolutional DNN w. Heterogeneous Pooling	18.7
-Ensemble DNN/CNN/RNN[131]	18.3
-Bidirectional LSTM	17.9
-Hierarchical Convolutional Deep Maxout Network[132]	16.5
+Hidden Trajectory (Generative) Model	
+Monophone Randomly Initialized DNN	
+Monophone DBN-DNN	
+Triphone GMM-HMM with BMMI Training	
+Monophone DBN-DNN on fbank	
+Convolutional DNN
+Convolutional DNN w. Heterogeneous Pooling
+Ensemble DNN/CNN/RNN
+Bidirectional LSTM	
+Hierarchical Convolutional Deep Maxout Network
 The debut of DNNs for speaker recognition in the late 1990s and speech recognition around 2009-2011 and of LSTM around 2003–2007, accelerated progress in eight major areas:[11][80][78]
 
 Scale-up/out and accelerated DNN training and decoding
@@ -369,7 +369,7 @@ learning architectures that internally form states homologous to image-grammar[2
 Learning a grammar (visual or linguistic) from training data would be equivalent to restricting the system to commonsense reasoning that 
 operates on concepts in terms of grammatical production rules and is a basic goal of both human language acquisition and artificial 
 intelligence (AI).
-/*Colab: "hello", "hi", "greetings", "sup", "what's up","hey"*/
+
 Cyber threat
 As deep learning moves from the lab into the world, research and experience shows that artificial neural networks are vulnerable to hacks and deception.[218] By identifying patterns that these systems use to function, attackers can modify inputs to ANNs in such a way that the ANN finds a match that human observers would not recognize. For example, an attacker can make subtle changes to an image such that the ANN finds a match even though the image looks to a human nothing like the search target. Such a manipulation is termed an “adversarial attack.”[219] In 2016 researchers used one ANN to doctor images in trial and error fashion, identify another's focal points and thereby generate images that deceived it. The modified images looked no different to human eyes. Another group showed that printouts of doctored images then photographed successfully tricked an image classification system.[220] One defense is reverse image search, in which a possible fake image is submitted to a site such as TinEye that can then find other instances of it. A refinement is to search using only parts of the image, to identify images from which that piece may have been taken.[221]
 
